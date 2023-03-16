@@ -4,4 +4,4 @@
   publish = "build"
 
 [context.production.environment]
-  API_KEY=7346e1b315e7e7c5dc1e70459156cce2
+  API_KEY = "7346e1b315e7e7c5dc1e70459156cce2"
