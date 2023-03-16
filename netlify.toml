@@ -1,2 +1,10 @@
+[build]
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 [build.environment]
 API_KEY = "7346e1b315e7e7c5dc1e70459156cce2"
