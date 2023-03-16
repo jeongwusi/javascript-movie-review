@@ -1,10 +1,10 @@
 import { FetchMovieListProps } from '../types/movieApi';
 
 const getPopularMovieRequestUrl = (page: number = 1) =>
-  `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=ko-KR&page=${page}`;
+  `https://api.themoviedb.org/3/movie/popular?api_key=7346e1b315e7e7c5dc1e70459156cce2&language=ko-KR&page=${page}`;
 
 const getSearchMovieRequestUrl = (query: FormDataEntryValue, page: number = 1) =>
-  `https://api.themoviedb.org/3/search/movie?api_key=${process.env.API_KEY}&language=ko-KR&query=${query}&page=${page}&include_adult=false`;
+  `https://api.themoviedb.org/3/search/movie?api_key=7346e1b315e7e7c5dc1e70459156cce2&language=ko-KR&query=${query}&page=${page}&include_adult=false`;
 
 export const movieApi = {
   async searchMovieList(query: FormDataEntryValue, page: number) {

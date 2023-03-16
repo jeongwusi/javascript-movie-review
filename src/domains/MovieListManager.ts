@@ -4,15 +4,14 @@
 // 더보기 기능
 // 현재 영화 목록에 가져온 페이지 정보 추가
 // 마지막 페이지인지 아닌지 판단하는 기능
-//
 
 import { Movie } from '../types/movie';
 
 const getPopularMovieRequestUrl = (page = 1) =>
-  `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=ko-KR&page=${page}`;
+  `https://api.themoviedb.org/3/movie/popular?api_key=7346e1b315e7e7c5dc1e70459156cce2&language=ko-KR&page=${page}`;
 
 const getSearchMovieUrl = (query: string, page = 1) =>
-  `https://api.themoviedb.org/3/search/movie?api_key=${process.env.API_KEY}&language=ko-KR&query=${query}&page=${page}&include_adult=false`;
+  `https://api.themoviedb.org/3/search/movie?api_key=7346e1b315e7e7c5dc1e70459156cce2&language=ko-KR&query=${query}&page=${page}&include_adult=false`;
 
 interface MovieInfo {
   query: string;
