@@ -336,7 +336,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"40422730fb09ec2b5aa5.png\";\n\n//# sourceURL=webpack://javascript-movie-review/./src/assets/logo.png?");
+eval("module.exports = __webpack_require__.p + \"static/media/logo.png\";\n\n//# sourceURL=webpack://javascript-movie-review/./src/assets/logo.png?");
 
 /***/ }),
 
@@ -346,7 +346,7 @@ eval("module.exports = __webpack_require__.p + \"40422730fb09ec2b5aa5.png\";\n\n
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8ab96eb448678796eac6.png\";\n\n//# sourceURL=webpack://javascript-movie-review/./src/assets/search_button.png?");
+eval("module.exports = __webpack_require__.p + \"static/media/search_button.png\";\n\n//# sourceURL=webpack://javascript-movie-review/./src/assets/search_button.png?");
 
 /***/ }),
 
@@ -356,7 +356,7 @@ eval("module.exports = __webpack_require__.p + \"8ab96eb448678796eac6.png\";\n\n
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"966d4a11f15962b42f8b.png\";\n\n//# sourceURL=webpack://javascript-movie-review/./src/assets/star_filled.png?");
+eval("module.exports = __webpack_require__.p + \"static/media/star_filled.png\";\n\n//# sourceURL=webpack://javascript-movie-review/./src/assets/star_filled.png?");
 
 /***/ })
 
